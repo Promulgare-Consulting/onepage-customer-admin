@@ -1,0 +1,17 @@
+{
+  "name": "assets",
+  "homepage": "https://github.com/Promulgare-Consulting/onepage-customer-admin",
+  "authors": [
+    "dave-promulgare <dave@promulgareconsulting.com>"
+  ],
+  "description": "",
+  "main": "",
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
