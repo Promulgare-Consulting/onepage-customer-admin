@@ -1,6 +1,6 @@
       angular.module('onepage',[]);
       angular.module('onepage').controller('BaseCtrl', ['$scope', function ($scope) {
-        $scope.registration = [{
+        $scope.registrations = [{
           id: 123456,
           name: 'Dave McKay',
           address1: ' 123 Main St',
