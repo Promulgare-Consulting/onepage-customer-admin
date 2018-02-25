@@ -34,6 +34,26 @@
   </head>
 
   <body>
+    <div ng-app="onepage" ng-controller="BaseCtrl">
+      <h1>Hello World</h1>
+      <ul>
+        <li ng-repeat="thing in things">
+          <span>{{thing.name}}</span>
+        </li>
+      </ul>
+    </div>
+    <script>
+
+      angular.module('onepage',[]);
+      angular.module('onepage').controller('BaseCtrl', ['$scope', function ($scope) {
+        $scope.things = [{
+          id: 123456,
+          name: 'foo'
+        }];
+
+      }]);
+
+    </script>
     <%- body %>
 
 
